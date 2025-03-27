@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PT-SalasDario.API", "PT-SalasDario\PT-SalasDario.API.csproj", "{4E6988AB-3FFD-4A53-A2D3-2492DEF1432D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PT-SalasDario.Repository", "PT-SalasDario.Repository\PT-SalasDario.Repository.csproj", "{4B64800F-6F9B-4F45-B534-B46B98F716A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PT-SalasDario.Services", "PT-SalasDario.Services\PT-SalasDario.Services.csproj", "{D483A57C-1F2D-4EC5-B91E-A4C90D1CABDD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PT-SalasDario.Test", "PT-SalasDario.Test\PT-SalasDario.Test.csproj", "{396C7C39-53D5-42D8-A9C4-CA2110443286}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PT-SalasDario.Data", "PT-SalasDario.Data\PT-SalasDario.Data.csproj", "{A8DAEDE6-EA27-4978-925C-08A660FA4DE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PT-SalasDario.ConsoleImportCSV", "PT-SalasDario.ConsoleImportCSV\PT-SalasDario.ConsoleImportCSV.csproj", "{23F97E3A-F62B-4EF1-9C7B-0D99F293BB18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E6988AB-3FFD-4A53-A2D3-2492DEF1432D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E6988AB-3FFD-4A53-A2D3-2492DEF1432D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E6988AB-3FFD-4A53-A2D3-2492DEF1432D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E6988AB-3FFD-4A53-A2D3-2492DEF1432D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B64800F-6F9B-4F45-B534-B46B98F716A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B64800F-6F9B-4F45-B534-B46B98F716A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B64800F-6F9B-4F45-B534-B46B98F716A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B64800F-6F9B-4F45-B534-B46B98F716A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D483A57C-1F2D-4EC5-B91E-A4C90D1CABDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D483A57C-1F2D-4EC5-B91E-A4C90D1CABDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D483A57C-1F2D-4EC5-B91E-A4C90D1CABDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D483A57C-1F2D-4EC5-B91E-A4C90D1CABDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{396C7C39-53D5-42D8-A9C4-CA2110443286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{396C7C39-53D5-42D8-A9C4-CA2110443286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{396C7C39-53D5-42D8-A9C4-CA2110443286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{396C7C39-53D5-42D8-A9C4-CA2110443286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8DAEDE6-EA27-4978-925C-08A660FA4DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8DAEDE6-EA27-4978-925C-08A660FA4DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8DAEDE6-EA27-4978-925C-08A660FA4DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8DAEDE6-EA27-4978-925C-08A660FA4DE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23F97E3A-F62B-4EF1-9C7B-0D99F293BB18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23F97E3A-F62B-4EF1-9C7B-0D99F293BB18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23F97E3A-F62B-4EF1-9C7B-0D99F293BB18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23F97E3A-F62B-4EF1-9C7B-0D99F293BB18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A44A10E-F28B-4736-8A2F-9FDCD1394677}
+	EndGlobalSection
+EndGlobal
