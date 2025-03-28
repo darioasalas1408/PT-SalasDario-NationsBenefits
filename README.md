@@ -1,19 +1,21 @@
 # PT-SalasDario
 
-Instrucciones para ejecutar la aplicación: 
-1) Descomprima el repositorio en su computadora
-2) Haga click derecho en el proyecto con nombre: PT-SalasDario.API
-3) Seleccione la opción: "Manage User Secrets"
-4) Pegue el siguiente contenido, cambiando los valores de acuerdo a su configuración:
-```json
-{
-  "ConnectionStrings:DefaultConnection": "Server=localhost;User Id=MY_USER;Database=MY_DB;Password=MY_PASSWORD;Connection Timeout=1000000"
-}
-```
-5) Aseugrese de que el proyecto con nombre PT-SalasDario.API sea el marcado como Startup Proyect
-6) Presione F5 o haga click en el botón Ejecutar
+## Instructions to run the application:  
+1) Extract the repository on your computer.  
+2) Right-click on the project named **PT-SalasDario.API**.  
+3) Select the option: **"Manage User Secrets"**.  
+4) Paste the following content, replacing the values according to your configuration:  
 
-# Importante
+    ```json
+    {
+      "ConnectionStrings:DefaultConnection": "Server=localhost;Port=3307;User Id=MY_USER;Database=MY_DB;Password=MY_PASSWORD;Connection Timeout=1000000"
+    }
+    ```
 
-En proyecto de Importación de consola, no esta funcionando los secrets, la cadena de conexión se va tener que cambiar en appsettings.json
+5) Make sure that the project named **PT-SalasDario.API** is set as the **Startup Project**.  
+6) Press **F5** or click the **Run** button.  
+
+## Important  
+
+In the **console import project**, user secrets are not working. The connection string must be changed in **appsettings.json**.
 
